@@ -59,13 +59,16 @@ Y_pred = multi_output_sgd.predict(X_test)
 Y_pred = scaler_Y.inverse_transform(Y_pred)
 Y_test = scaler_Y.inverse_transform(Y_test)
 mse = mean_squared_error(Y_test, Y_pred)
+print('Name: MOHAMMED PARVEZ S')
+print('Reg no: 212223040113')
 print("Mean Squared Error:", mse)
 print("\nPredictions: \n",Y_pred[:5])
 ```
 
 ## Output:
 
-<img width="1920" height="1080" alt="Screenshot 2025-08-28 081426" src="https://github.com/user-attachments/assets/3a245e42-8105-48a7-bbbf-3a39abf6fafa" />
+
+<img width="907" height="328" alt="Screenshot 2025-08-31 155450" src="https://github.com/user-attachments/assets/c00961eb-bf86-4156-8550-749183a7d26e" />
 
 
 ## Result:
